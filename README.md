@@ -1,24 +1,3 @@
-# Subscription Management lab80
+# Simple subscription management example
 
-
-
-----
-
-## Getting Started
-
-
-```
-# Install Meteor
-curl https://install.meteor.com | /bin/sh
-
-# Start the App
-meteor
-```
-
-## Deployment
-
-### …on meteor.com
-
-```
-meteor deploy yourappname
-```
+This is simple subscription management example. Coffee version of https://github.com/flow-examples/subscriptions-management 
