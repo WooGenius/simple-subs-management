@@ -1,0 +1,26 @@
+<template name="index">
+  <h1>Welcome to lab80 blog</h1>
+  <ul>
+    <li>
+      <!-- Use routerGo for making link -->
+      {{#routerGo url="/blog/1"}}
+      <h3>post1</h3>
+      {{/routerGo}}
+    </li>
+    <li>
+      {{#routerGo url="/blog/2"}}
+      <h3>post2</h3>
+      {{/routerGo}}
+    </li>
+    <li>
+      {{#routerGo url="/blog/3"}}
+      <h3>post3</h3>
+      {{/routerGo}}
+    </li>
+    <li>
+      {{#routerGo url="/blog/4"}}
+      <h3>post4</h3>
+      {{/routerGo}}
+    </li>
+  </ul>
+</template>
